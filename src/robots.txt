@@ -1,0 +1,3 @@
+搜索爬虫首先查找这个文件
+User-agent: *
+Disallow: /admin/
