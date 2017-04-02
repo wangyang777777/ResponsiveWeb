@@ -347,7 +347,7 @@ header .main ul li a.active{
 .product .product-content .item{
     width:100%;
 }
-.product .product-content .item +　.item{
+.product .product-content .item + .item{
     border-top: 1px solid #eee;
 }
 .product .product-content .item h3{
@@ -422,6 +422,41 @@ header .main ul li a.active{
     background-color: #ccc !important;
     cursor: not-allowed;
 }
+
+/**********
+底部导航
+ */
+.footer{
+    padding: 3rem 0;
+    background-color: #fff;
+    border-top: 2px solid #eee;
+}
+.footer-content{
+    width: 90%;
+    margin:0 auto;
+}
+.footer-content .brand{
+    float: left;
+    display: block;
+    filter:graysc ale(100%);
+    width: 20%;
+    height: 35px;
+    background:url('../img/logo@1x.png') no-repeat left;
+    background-size: 150px 35px;
+}
+.footer-content ul{
+    float: left;
+    width: 15%;
+}
+.footer-content ul li{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.footer-content ul li .title{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
 /**********
 网站底部导航
  */
