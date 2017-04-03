@@ -306,7 +306,7 @@ header .main ul li a.active{
 滚动广告
  */
 .ad{
-    display: none;
+    /*display: none;*/
 }
 /**********
 平台特点

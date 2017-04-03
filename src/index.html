@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     <link rel="icon" href="bitbug_favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="js/vendor/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/vendor/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -39,7 +42,7 @@
 
 </header>
 <div class="container">
-    <section class="transaction">
+    <section class="transaction clearfix">
         <div class="trans-content">
             <div class="trans-data">
                 <span>平台累计成交金额</span>
@@ -58,15 +61,30 @@
     </section>
 
     <section class="ad">
-        <div class="item">
-            <img src="img/ad001.png" alt="">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad001-l.png" media ="(min-width: 50em)">
+                    <source srcset="img/ad001-m.png" media ="(min-width: 30em)">
+                    <img srcset="img/ad001.png" alt="2015年度报告">
+                </picture>
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad002-l.png" media ="(min-width: 50em)">
+                    <source srcset="img/ad002-m.png" media ="(min-width: 30em)">
+                    <img srcset="img/ad002.png" alt="新年红包">
+                </picture>
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad003-l.png" media ="(min-width: 50em)">
+                    <source srcset="img/ad003-m.png" media ="(min-width: 30em)">
+                    <img srcset="img/ad003.png" alt="新手秘籍">
+                </picture>
+            </div>
         </div>
-        <div class="item">
-            <img src="img/ad002.png" alt="">
-        </div>
-        <div class="item">
-            <img src="img/ad003.png" alt="">
-        </div>
+
     </section>
 
     <section class="feature">
@@ -272,6 +290,9 @@
     </ul>
     <p> 北京某互联网金融公司 版权所有 © 2004-2017</p>
 </footer>
-
+<script src="js/vendor/jquery-1.12.2.js"></script>
+<script src="js/vendor/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+<script src="js/vendor/picturefill.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
